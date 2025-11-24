@@ -32,9 +32,9 @@ RUN apt-get update -y && \
         openssh-client \
         openssh-server \
         p7zip-full \
-        python${PYTHON_VERSION} \
-        python${PYTHON_VERSION}-dev \
-        python${PYTHON_VERSION}-venv \
+#        python${PYTHON_VERSION} \
+#        python${PYTHON_VERSION}-dev \
+#        python${PYTHON_VERSION}-venv \
         rsync \
         tmux \
         tldr \
