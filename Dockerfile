@@ -1,5 +1,6 @@
 # SimpleTuner needs CU141
-FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+# FROM nvidia/cuda:12.4.1-cudnn-devel-ubuntu22.04
+FROM pytorch/pytorch:2.6.0-cuda12.4-cudnn9-runtime
 
 ARG PYTHON_VERSION=3.11
 
